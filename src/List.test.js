@@ -11,8 +11,12 @@ describe('List component', () => {
     });
 
     it('renders the List as expected', () => {
+        const c = [
+            { id: 'a', title: 'First card', content: 'lorem ipsum' },
+            { id: 'b', title: 'Second card', content: 'lorem ipsum' }
+        ]
         const tree = renderer
-            .create(<List id={'1'} header={'First list'} cardIds={[ 'a', 'b']} />)
+            .create(<List key={'1'} header={'First list'} cards={c} />)
             .toJSON();
         expect(tree).toMatchSnapshot();
     })

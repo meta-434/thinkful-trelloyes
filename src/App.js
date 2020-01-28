@@ -10,6 +10,7 @@ function App (props) {
                     <h1>Trelloyes!</h1>
                 </header>
                 <div className='App-list'>
+                    {console.log(store.lists)}
                     {store.lists.map(list => (
                         <List
                             key={list.id}
@@ -20,7 +21,6 @@ function App (props) {
                 </div>
             </main>
         );
-
 }
 
 export default App;
