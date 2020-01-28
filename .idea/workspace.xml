@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c23d367-149e-4c17-a86a-c918937a924a" name="Default Changelist" comment="" />
+    <list default="true" id="6c23d367-149e-4c17-a86a-c918937a924a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Card.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/List.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,21 +17,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WUbp7ODDZswSAQsW7C1WgIRNDJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -33,7 +48,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.test">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -44,8 +59,19 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.test" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -73,6 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579207300239</updated>
       <workItem from="1579207304624" duration="4122000" />
+      <workItem from="1580241452873" duration="1793000" />
     </task>
     <servers />
   </component>
@@ -84,22 +111,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="117" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1579207369603" />
-    <state width="1308" height="166" key="GridCell.Tab.0.bottom" timestamp="1579211432924">
+    <state width="660" height="278" key="GridCell.Tab.0.bottom" timestamp="1580243719066">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1308" height="166" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1579211432924" />
-    <state width="1308" height="166" key="GridCell.Tab.0.center" timestamp="1579211432924">
+    <state width="660" height="278" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1580243719066" />
+    <state width="660" height="278" key="GridCell.Tab.0.center" timestamp="1580243719066">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1308" height="166" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1579211432924" />
-    <state width="1308" height="166" key="GridCell.Tab.0.left" timestamp="1579211432924">
+    <state width="660" height="278" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1580243719066" />
+    <state width="660" height="278" key="GridCell.Tab.0.left" timestamp="1580243719066">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1308" height="166" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1579211432924" />
-    <state width="1308" height="166" key="GridCell.Tab.0.right" timestamp="1579211432924">
+    <state width="660" height="278" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1580243719066" />
+    <state width="660" height="278" key="GridCell.Tab.0.right" timestamp="1580243719066">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1308" height="166" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1579211432924" />
+    <state width="660" height="278" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1580243719066" />
     <state x="339" y="165" key="run.anything.popup" timestamp="1579209076443">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
